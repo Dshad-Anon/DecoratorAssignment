@@ -20,9 +20,9 @@ namespace DecoratorAssignment.CondimentsList
             return beverage.GetDescription() + ", Soy";
         }
 
-        public override double Cost()
+        public override decimal Cost()
         {
-            return 0.15 + beverage.Cost();
+            return 0.15M + beverage.Cost();
         }
     }
 }

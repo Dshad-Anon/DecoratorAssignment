@@ -13,6 +13,6 @@ namespace DecoratorAssignment
         {
             return description;
         }
-        public abstract double Cost();
+        public abstract decimal Cost();
     }
 }

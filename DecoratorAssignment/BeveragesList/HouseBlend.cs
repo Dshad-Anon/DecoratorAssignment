@@ -12,9 +12,9 @@ namespace DecoratorAssignment.BeveragesList
         {
             description = "House Blend Coffee";
         }
-        public override double Cost()
+        public override decimal Cost()
         {
-            return 0.89;
+            return 0.89M;
         }
     }
 }

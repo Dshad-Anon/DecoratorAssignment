@@ -14,9 +14,9 @@ namespace DecoratorAssignment.CondimentsList
         {
             this.beverage = beverage;
         }
-        public override double Cost()
+        public override decimal Cost()
         {
-            return 0.20 + beverage.Cost();
+            return 0.20M + beverage.Cost();
         }
 
         public override string GetDescription()

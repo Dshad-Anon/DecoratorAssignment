@@ -12,9 +12,9 @@ namespace DecoratorAssignment.BeveragesList
         {
             description = "Espresso";
         }
-        public override double Cost()
+        public override decimal Cost()
         {
-            return 1.99;
+            return 1.99M;
         }
     }
 }

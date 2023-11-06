@@ -10,11 +10,11 @@ namespace DecoratorAssignment.BeveragesList
     {
         public DarkRoast()
         {
-            description = "Dark Roast";
+            description = "Dark Roast Coffee";
         }
-        public override double Cost()
+        public override decimal Cost()
         {
-            return 0.99;
+            return 0.99M;
         }
     }
 }
