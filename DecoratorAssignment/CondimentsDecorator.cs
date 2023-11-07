@@ -8,6 +8,6 @@ namespace DecoratorAssignment
 {
     public abstract class CondimentsDecorator : Beverage
     {
-       
+       // while inheriting the beverages it also inherits the GetDescription and Cost method that's why didn't added here those methods.
     }
 }
